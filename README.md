@@ -123,7 +123,7 @@ After ~10 days of automated daily collection:
 ## Running It Locally
 
 ```bash
-git clone https://github.com/DaniyalAtiq9/currency-etl.git
+git clone https://github.com/mirzaramis/currency-etl.git
 cd currency-etl
 pip install requests pandas numpy matplotlib
 python run_pipeline.py
