@@ -2,6 +2,8 @@
 
 An automated ETL pipeline that extracts daily USD exchange rates, transforms them into a clean historical dataset, loads them into SQLite, and runs unattended on a daily schedule via GitHub Actions.
 
+Built by Mirza Ramis Baig. The pipeline was first developed under a previous GitHub account that is no longer accessible; this repository carries the current version.
+
 ![Rate Trend](data/rate_trend.png)
 
 ## Problem Statement
@@ -112,7 +114,7 @@ After ~10 days of automated daily collection:
 - No volatility alerts (>1% single-day moves) were triggered during the collection window — both currencies stayed within a stable ±0.5% daily band
 - The pipeline has run unattended via GitHub Actions with no manual intervention since deployment
 
-## What I'd Improve at Production Scale
+## What to Improve at Production Scale
 
 - Swap SQLite for Postgres to support concurrent writes and larger volume
 - Add a dedicated alerting channel (email/Slack) when a volatility threshold is crossed, instead of just logging it
