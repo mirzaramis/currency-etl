@@ -2,8 +2,6 @@
 
 An automated ETL pipeline that extracts daily USD exchange rates, transforms them into a clean historical dataset, loads them into SQLite, and runs unattended on a daily schedule via GitHub Actions.
 
-Built by Mirza Ramis Baig. The pipeline was first developed under a previous GitHub account that is no longer accessible; this repository carries the current version.
-
 ![Rate Trend](data/rate_trend.png)
 
 ## Problem Statement
